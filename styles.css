@@ -18,6 +18,7 @@ body {
 }
 
 .container {
+    background-color: ivory;
     margin: 0 auto;
     padding: 0 30px;
     max-width: 900px;
@@ -261,4 +262,15 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+.contact-info__block a.contact-info__item span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5px;
+}
+.contact_info_container a{
+    margin-bottom: 10px;
 }
